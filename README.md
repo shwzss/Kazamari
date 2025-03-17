@@ -7,11 +7,15 @@
 To use this code, follow these steps:
 
 Install Required Libraries: Ensure you have the required libraries installed. You can install them using pip:
-
+##
+pip install discord.py requests
+##
 Replace API Keys and Tokens: Replace the placeholder values for twitch_client_id, twitch_client_secret, twitch_token, and discord_token with your actual API keys and tokens.
 
 Run the Bot: Save the code to a file, for example, followbot.py, and run it using Python:
-
+##
+python followbot.py
+##
 Set Up Channels and Roles: The bot will automatically create channels for each role under a category called "Twitch" when it starts. Ensure you have the roles "free", "basic", "super", "astronomic", and "massive" set up in your Discord server.
 
 Make sure to replace "Your Server Name" with the name of your Discord server and the placeholder API keys and tokens with your actual values.
